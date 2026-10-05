@@ -1,5 +1,3 @@
-// Registra (ou atualiza) os slash commands no Discord.
-// Rode sempre que criar, remover ou alterar a definição de um comando: npm run deploy
 const { REST, Routes } = require('discord.js');
 const { token, clientId, guildId } = require('./config');
 const { loadCommands } = require('./handlers/commandLoader');
