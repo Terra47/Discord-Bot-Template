@@ -1,6 +1,6 @@
 <div align="center">
 
-# discord-bot-template
+# Discord-Bot-Template
 
 Um bot de Discord pronto para funcionar. Você só preenche suas informações e coloca no ar.
 
