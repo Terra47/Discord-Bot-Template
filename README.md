@@ -150,7 +150,7 @@ O bot só funciona enquanto o terminal estiver aberto e o computador ligado. Par
 | :-- | :-: | :-- |
 | `DISCORD_TOKEN` | Sim | A senha do bot (passo 6) |
 | `CLIENT_ID` | Sim | O Application ID do bot (passo 5) |
-| `GUILD_ID` | Sim | O ID do servidor onde você vai testar (passo 7) |
+| `GUILD_ID` | Não | O ID do servidor onde você vai testar (passo 7) |
 
 ## Estrutura do projeto
 
