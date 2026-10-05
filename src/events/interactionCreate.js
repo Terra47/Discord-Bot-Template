@@ -16,7 +16,6 @@ module.exports = {
     } catch (error) {
       console.error(`[comandos] Erro ao executar /${interaction.commandName}:`, error);
 
-      // Avisa o usuário sem derrubar o bot. Se o comando já respondeu, usa followUp.
       const reply = {
         content: 'Ocorreu um erro ao executar este comando.',
         flags: MessageFlags.Ephemeral,
