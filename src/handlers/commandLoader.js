@@ -3,7 +3,6 @@ const path = require('node:path');
 
 const commandsPath = path.join(__dirname, '..', 'commands');
 
-// Percorre src/commands/<categoria>/<comando>.js e devolve todos os comandos válidos.
 function loadCommands() {
   const commands = new Map();
 
