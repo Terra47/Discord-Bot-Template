@@ -1,0 +1,18 @@
+{
+  "name": "discord-bot-template",
+  "version": "1.0.0",
+  "description": "Template mínimo de bot para Discord com discord.js v14 e slash commands.",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3"
+  }
+}
