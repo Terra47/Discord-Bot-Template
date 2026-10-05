@@ -1,4 +1,3 @@
-// Carrega o .env e valida as variáveis obrigatórias antes de qualquer coisa.
 try {
   process.loadEnvFile();
 } catch {
