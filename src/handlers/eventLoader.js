@@ -3,7 +3,6 @@ const path = require('node:path');
 
 const eventsPath = path.join(__dirname, '..', 'events');
 
-// Registra cada arquivo de src/events como listener do client.
 function loadEvents(client) {
   for (const file of fs.readdirSync(eventsPath).filter((f) => f.endsWith('.js'))) {
     const event = require(path.join(eventsPath, file));
